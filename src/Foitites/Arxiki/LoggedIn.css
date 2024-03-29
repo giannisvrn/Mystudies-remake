@@ -1,0 +1,94 @@
+.centered-and-underlined {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  /* Additional block styles */
+  .courses-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles for the three blocks */
+.three-blocks-container {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px; 
+    font-size: 19px;
+  }
+.block-text { 
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.single-block {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  /* Add a specific class for the middle block */
+  .middle-block {
+    margin-top: 90px
+  }
+
+  /* Style for paragraphs inside blocks */
+  .single-block > p:not(:first-child) {
+    font-weight: normal; /* Make the paragraphs normal (not bold) */
+    font-size: medium;
+  }
+  
+  .dot-10 { 
+    transform: scale(1.50);
+    position: absolute;
+    top:43%;
+    left:41%;
+    color: lightgray;
+  }
+
+  .arrow-down { 
+    transform: rotate(340deg) scale(0.6);
+    position: absolute;
+    top:10%;
+    left: 18%;
+  }
+  .arrow-down2 { 
+    transform: rotate(310deg) scale(0.6);
+    position: absolute;
+    top:10%;
+    left:52%
+  }
+  .arrow-down3 { 
+    transform: rotate(340deg) scale(0.6);
+    position: absolute;
+    top:55%;
+    left: 18%;
+  }
+  .arrow-down4 { 
+    transform: rotate(310deg) scale(0.6);
+    position: absolute;
+    top:55%;
+    left:52%
+  }
+  .arrow-down5 { 
+    transform: rotate(340deg) scale(0.6);
+    position: absolute;
+    top:100%;
+    left: 18%;
+  }
+  .arrow-down6 { 
+    transform: rotate(310deg) scale(0.6);
+    position: absolute;
+    top:100%;
+    left:52%
+  }

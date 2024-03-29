@@ -1,0 +1,127 @@
+.vathm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 38vw;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.vathm-drop {
+  width: 35vw;
+}
+
+.vathm-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc; /* Add a bottom border to separate dropdowns */
+}
+
+.vathm-arrow-icon {
+  transform: scale(0.5); /* Scale the arrow icon */
+  transition: transform 0.3s ease;
+}
+
+.vathm-button .open {
+  transform: scale(0.5) rotate(180deg);
+}
+
+.vathm-ul {
+  list-style: none;
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+
+.vathm-li {
+  position: relative; /* Position the grade relative to the list item */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Add a bottom border to separate classes */
+}
+
+/* Remove bottom border from the last list item to avoid double borders */
+.vathm-li:last-child {
+  border-bottom: none;
+}
+
+.vathm-grade {
+  position: absolute;
+  right: 10px; /* Adjust the distance from the right side */
+  font-weight: bold;
+}
+
+/* Color for passing grade */
+.vathm-grade.pass {
+  color: green;
+}
+
+/* Color for failing grade */
+.vathm-grade.fail {
+  color: red;
+}
+
+.vathm-class.pass { 
+  color:green;
+}
+.vathm-class.fail { 
+  color:red;
+}
+
+.vathm-title { 
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.vathm-subtitle {
+  font-size: 15px;
+  color: gray; /* Add color to distinguish from the main title */
+  display: block; /* Force it to appear below the title */
+  margin-top: 5px; /* Add margin for spacing */
+}
+
+.vathm-wrapper {
+  position: relative;
+}
+
+.vathm-buttons { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -6vh;
+  right: 30.5vw;
+}
+
+.button-print {
+  margin-right: 10px;
+  font-size: 18px;
+  width: 6vw;
+  border-radius: 10px;
+}
+
+.vathm-checkbox { 
+  position: absolute;
+  left: -18%;
+  margin-top: 4vh;
+}
+.vathm-checkbox2 { 
+  position: absolute;
+  left: -50%;
+  margin-top: 0.5vh;
+}
+
+.filter-title { 
+  position: absolute;
+  left: -33vw;
+}
+
+.filter-dropdown { 
+  position: absolute;
+  left: -28vw;
+}

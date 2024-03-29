@@ -1,0 +1,41 @@
+.subject-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 300px;
+  margin-bottom: -250px;
+  width: 50%;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+.checkbox {
+  transform: scale(1.5);
+}
+.top-left {
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+  width: 350px;
+}
+
+.top-right {
+  float: right;
+}
+
+.separator {
+  clear: both;
+  margin-top: 10px;
+}
+
+.categories {
+  display: flex;
+}
+
+.left-categories,
+.right-categories {
+  flex: 1;
+}
+
+.category {
+  margin: 5px;
+}

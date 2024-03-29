@@ -1,0 +1,83 @@
+.oristikopoihsh-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oristikopoihsh-message { 
+    margin-top: 200px;
+}
+
+.oristikopoihsh-button { 
+    margin-top: 100px;
+    padding: 8px 25px;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.progress-bar-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:20%;
+    left:24.5%;
+  }
+  
+  .circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circle {
+    position: relative;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    background-color: #9ab5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .completed::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255); /* Set color for the checkmark */
+    font-size: 50px;
+  }
+  
+  .prog-line {
+    height: 20px;
+    width: 200px;
+    margin: 0 40px;
+    border-radius: 10px;
+    background-color: #9ab5c5;
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+  .completed {
+    background-color: #2ecc71; /* Set color for completed circles */
+  }
+  
+  .prog-line.first-half {
+    background: linear-gradient(to right, #2ecc71 40%, #9ab5c5 60%);
+  }

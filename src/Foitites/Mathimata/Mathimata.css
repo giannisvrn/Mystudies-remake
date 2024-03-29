@@ -1,0 +1,41 @@
+.mathimata-container {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 20%;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+  }
+  .main-content {
+    flex: 1;
+    padding: 50px;
+  }
+
+  /* Semester block styles */
+  .semester-block {
+    margin-bottom: 10px; 
+  }
+
+/* Button styles */
+.semester-block button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    font-size: large;
+  }
+
+  .subject-card:last-child {
+    margin-bottom: 0px; /* added this so the sidebar goes all the way down */
+  }
